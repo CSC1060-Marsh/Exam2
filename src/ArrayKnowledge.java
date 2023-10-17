@@ -27,7 +27,7 @@ public class ArrayKnowledge {
         int end = sc.nextInt();
         System.out.println("Enter the integer step:");
         int step = sc.nextInt();
-        int numberIntegers = end - start;
+        int numberIntegers = ((end - start) / step) + 1;
         int[] boundedArray = new int[numberIntegers];
 
         for (int i = 0; i <= numberIntegers - 1; i++) {
